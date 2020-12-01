@@ -157,3 +157,19 @@ for(var i=0;i<questions.length;i++){
 }
 console.log(chalk.bgRed.underline.bold("Yay,Your final score is " + score));
 console.log(" ");
+
+
+
+
+
+
+if(score==10){
+    console.log("Hurray,congrats you are the new high scorer");
+    highestScorer.unshift({'name':userName,'score':score});
+  }
+  else{
+    console.log("Try one more time to become the new high scorer");
+  }
+  
+  console.log(" ");
+  
