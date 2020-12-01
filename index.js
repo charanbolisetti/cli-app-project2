@@ -39,3 +39,16 @@ function load(question,answer){
     console.log(chalk.yellowBright("Your score is " + score));
     console.log("---------------");
   }
+
+
+  var highestScorer=[
+    {
+      name:"raju",
+      score:"10"
+    },
+    {
+      name:"naidu",
+      score:"9"
+    }
+  ]
+  
