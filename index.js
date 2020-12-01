@@ -145,3 +145,15 @@ function load(question,answer){
      answer : "a"
    }
   
+
+
+
+
+
+   var questions=[questionOne,questionTwo,questionThree,questionFour,questionFive,questionSix,questionSeven,questionEight,questionNine,questionTen];
+for(var i=0;i<questions.length;i++){
+  var currentQuestion=questions[i];
+  load(currentQuestion.question,currentQuestion.answer);
+}
+console.log(chalk.bgRed.underline.bold("Yay,Your final score is " + score));
+console.log(" ");
