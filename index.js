@@ -173,3 +173,14 @@ if(score==10){
   
   console.log(" ");
   
+
+
+
+
+  console.log(chalk.bgCyan("------------------SCORE BOARD-------------"));
+
+ for(var i=0;i<highestScorer.length;i++){
+   var currentHighestScorer=highestScorer[i];
+   console.log(chalk.bgYellow(currentHighestScorer.name + "-------->" + currentHighestScorer.score
+   ));
+ }
