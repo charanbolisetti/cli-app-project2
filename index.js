@@ -51,4 +51,97 @@ function load(question,answer){
       score:"9"
     }
   ]
+
+
+
+
+
+  var questionOne={
+    question : chalk.black.bgGreenBright("What is the real name of tony stark? "),
+    a : "Robert Downey",
+    b : "Robert Steve",
+    c : "Robert smith",
+    d : "Robert Alan",
+    answer : "a"
+  }
+  
+  var questionTwo={
+    question : chalk.black.bgGreenBright("How many series are there in iron man? "),
+    a : "1",
+    b : "2",
+    c : "3",
+    d : "4",
+    answer : "c"
+  }
+  
+  var questionThree={
+    question : chalk.black.bgGreenBright("The purple gem is also known as? "),
+    a : "real stone",
+    b : "power stone",
+    c : "Thunder stone",
+    d : "Mighty stone",
+    answer : "b"
+  }
+  
+  var questionFour={
+    question : chalk.black.bgGreenBright("The Tesseract was stolen by? "),
+    a : "Thor",
+    b : "loki",
+    c : "Thanos",
+    d : "hulk",
+    answer : "b"
+  }
+  
+  var questionFive={
+    question : chalk.black.bgGreenBright("Who is the strongest Avenger? "),
+    a : "Thor",
+    b : "hulk",
+    c : "iron man",
+    d : "Black widow",
+    answer : "a"
+  }
+   var questionSix={
+     question : chalk.black.bgGreenBright("In which year black panther was released? "),
+     a : "2016",
+     b : "2017",
+     c : "2018",
+     d : "2019",
+     answer : "c"
+   }
+  
+   var questionSeven={
+     question : chalk.black.bgGreenBright("What is the first Iron Man suit built and created by Tony Stark? "),
+     a : "mark 1",
+     b : "mark 2",
+     c : "mark 3",
+     d : "mark 4",
+     answer : "a"
+   }
+  
+   var questionEight={
+     question : chalk.black.bgGreenBright("What is the last movie of avengers series? "),
+     a : "Avengers EndGame",
+     b : "Avengers ultron",
+     c : "Avengers Infinity war",
+     d : "Avengers Age of ultron",
+     answer : "a"
+   }
+  
+   var questionNine={
+     question : chalk.black.bgGreenBright("Heroine Name of Captain Marvel?"),
+     a : "brie larson",
+     b : "brie roman",
+     c : "brie yan",
+     d : "brie john",
+     answer : "a"
+   }
+  
+   var questionTen={
+     question : chalk.black.bgGreenBright("Shield name of Captain America? "),
+     a : "vibranium shield",
+     b : "ultra shield",
+     c : "Thunder shield",
+     d : "mega shield",
+     answer : "a"
+   }
   
